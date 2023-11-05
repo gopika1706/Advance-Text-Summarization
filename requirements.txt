@@ -1,0 +1,21 @@
+transformers   #hugging face api
+transformers[sentencepiece]
+datasets
+sacrebleu    # because this is on evaluation metrics. whenever you are dealing with text summarization models there is metrics row metrics hence we need this sacrebleu
+rouge_score 
+py7zr
+pandas
+nltk
+tqdm
+PyYAML
+matplotlib
+torch
+notebook
+boto3
+mypy-boto3-s3
+python-box==6.0.2
+ensure==1.0.2
+fastapi==0.78.0
+uvicorn==0.18.3
+Jinja2==3.1.2
+-e .
