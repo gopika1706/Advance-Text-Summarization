@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion     # thi is the root folder where the entire data ingestion(downloads data) stores
+  source_URL:  https://github.com/jimschacko/Advanced-Text-Summarizer/raw/main/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip       # after downloading the data the zip file will get stored in this path
+  unzip_dir: artifacts/data_ingestion            #after unzipping it will store in this path
